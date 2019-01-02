@@ -1,0 +1,70 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
+
+using UnityEngine.UI;
+
+public class MyPlayer : MonoBehaviourPun {
+
+
+    public float Speed = 10f;
+    public float Health = 100;
+    public Image healthBar;
+    public Transform shotPos;
+    public GameObject bulletPrefab;
+
+    private void Start()
+    {
+        if (photonView.IsMine)
+        {
+            GetComponent<MeshRenderer>().material.color = Color.blue;
+        }
+        else
+        {
+            GetComponent<MeshRenderer>().material.color = Color.red;
+        }
+    }
+
+    private void Update()
+    {
+        if (photonView.IsMine)
+        {
+            InputMovement();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Fire();
+            }
+        }
+
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Bullet")
+        ChangeHealth();
+    }
+
+    [PunRPC]
+    void ChangeHealth()
+    {
+        Health -= 20;
+        healthBar.fillAmount = Health / 100;
+    }
+
+
+
+    void Fire()
+    {
+        PhotonNetwork.Instantiate(bulletPrefab.name, shotPos.transform.position, shotPos.rotation);
+    }
+
+    void InputMovement()
+    {
+        float h = Input.GetAxis("Horizontal") * Time.deltaTime* 100;
+        float v = Input.GetAxis("Vertical") * Time.deltaTime* Speed;
+
+        transform.Translate(0, 0, v);
+        transform.Rotate(0, h, 0);
+    }
+}
