@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Game.unity
+- path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.unity
   isLoaded: 1
   isActive: 1
