@@ -52,7 +52,20 @@ public class MyPlayer : MonoBehaviourPun {
         healthBar.fillAmount = Health / 100;
     }
 
-
+    // used as Observed component in a PhotonView, this only reads/writes the position
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.IsWriting)
+        {
+            Vector3 pos = transform.localPosition;
+            stream.Serialize(ref pos);
+        }
+        else
+        {
+            Vector3 pos = Vector3.zero;
+            stream.Serialize(ref pos);  // pos gets filled-in. must be used somewhere
+        }
+    }
 
     void Fire()
     {
