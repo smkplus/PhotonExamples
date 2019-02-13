@@ -1,20 +1,8 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/SMK2/Documents/Test222/PhotonExamples.exe
+C:/Users/Smkgames/Documents/Temp/ShooterTest/Shooter.exe
 SceneListBegin?
-Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/DemoHub-Scene.unity
-Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scenes/DemoAsteroids-GameScene.unity
-Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scenes/DemoAsteroids-LobbyScene.unity
-Assets/Photon/PhotonChat/Demos/DemoChat/DemoChat-Scene.unity
-Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/DemoLoadBalancing-Scene.unity
-Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Procedural-Scene.unity
-Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Launcher.unity
-Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 1.unity
-Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 2.unity
-Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 3.unity
-Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scenes/PunBasics-Room for 4.unity
-Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/PunCockpit-Scene.unity
-Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.unity
+Assets/Scene/Game.unity
 SceneListEnd?
 501888fb5d0cecdd7c7e87c84035d44e Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.PlayerListCell
 05524b8f659e7bfe5756d1335fec24ba PhotonUnityNetworking.Utilities.dll:Photon.Pun.UtilityScripts.PunTeams
@@ -186,6 +174,7 @@ c3a9e82914d368e0b53a5de37fb3627a Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.Clo
 5d578f6e8917faff01e7e2dc9f392ee7 PhotonUnityNetworking.dll:Photon.Pun.PhotonRigidbodyView
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.IgnoreUiRaycastWhenInactive
 79faa3d65f06fd0a6111fd24966956f5 Assembly-CSharp.dll:.ChatAppIdCheckerUI
+a3c48a026df2380e9c3bbe22dd906d8c Assembly-CSharp.dll:.PlayerScore
 c3a9e82914d368e0b53a5de37fb3627a Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.PingProperty
 977c873f67252ed523aa425f8e3d6284 PhotonRealtime.dll:Photon.Realtime.ConnectionHandler
 7b599feab784e5ef6cfe76ebd2556cca Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.PlayerDetailsController
@@ -302,3 +291,4 @@ d9a45f500670681f30ff59a69a580fa0 Assembly-CSharp.dll:Photon.Pun.Demo.Procedural.
 fb262b2ac14e89c3b1fd066d3ef7cca0 Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.Forms.UserIdUiForm
 c3a9e82914d368e0b53a5de37fb3627a Assembly-CSharp.dll:Photon.Pun.Demo.Cockpit.CountOfRoomsProperty
 554c18f8fffc91699e4426d05cdb16da Assembly-CSharp.dll:Photon.Pun.Demo.Asteroids.LobbyTopPanel
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Item

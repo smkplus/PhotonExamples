@@ -14,15 +14,20 @@ public class PhotonLobbyManager : MonoBehaviour {
         if(createRoomInput.text.Length > 0)
         {
         PhotonNetwork.CreateRoom(createRoomInput.text,new RoomOptions() { MaxPlayers = 4 },null);
+        print("Room Created");
             LobbyMenu.SetActive(false);
         }
     }
 
     public void JoinRoom()
     {
+        print("JoinedRoom");
+
         if (joinRoomInput.text.Length > 0)
         {
-            PhotonNetwork.JoinRoom(createRoomInput.text);
+            PhotonNetwork.JoinRoom(joinRoomInput.text);
+            print("works");
+
         }
         LobbyMenu.SetActive(false);
 

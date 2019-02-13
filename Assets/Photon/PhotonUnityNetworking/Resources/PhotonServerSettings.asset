@@ -32,4 +32,6 @@ MonoBehaviour:
   - Fire
   - RespawnSpaceship
   - ChangeHealth
+  - Call
+  - DestroyItem
   DisableAutoOpenWizard: 1

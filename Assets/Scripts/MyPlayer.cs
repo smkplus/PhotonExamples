@@ -29,6 +29,8 @@ public class MyPlayer : MonoBehaviourPun {
 
     private void Update()
     {
+        healthBar.fillAmount = Health / 100;
+
         if (photonView.IsMine)
         {
             InputMovement();
@@ -42,14 +44,12 @@ public class MyPlayer : MonoBehaviourPun {
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Bullet")
-        ChangeHealth();
+        ChangeHealth(-10);
     }
 
-    [PunRPC]
-    void ChangeHealth()
+    void ChangeHealth(float value)
     {
-        Health -= 20;
-        healthBar.fillAmount = Health / 100;
+        Health += value;
     }
 
     // used as Observed component in a PhotonView, this only reads/writes the position
@@ -59,11 +59,13 @@ public class MyPlayer : MonoBehaviourPun {
         {
             Vector3 pos = transform.localPosition;
             stream.Serialize(ref pos);
+            stream.SendNext(Health);
         }
         else
         {
             Vector3 pos = Vector3.zero;
             stream.Serialize(ref pos);  // pos gets filled-in. must be used somewhere
+            Health = (float)stream.ReceiveNext();
         }
     }
 

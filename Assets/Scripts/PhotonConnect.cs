@@ -32,10 +32,13 @@ public class PhotonConnect : MonoBehaviourPunCallbacks
         print("On Joined Lobby");
 
 
+
     }
 
     public override void OnJoinedRoom()
     {
+        print("On Joined Room");
+
         PhotonNetwork.Instantiate(Prefab.name, Vector3.zero, Prefab.transform.rotation);
 
     }

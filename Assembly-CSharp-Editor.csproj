@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1B7DF9DB-E3CC-D2E5-F8C9-FB3EF6916757}</ProjectGuid>
+    <ProjectGuid>{FCC36AD0-1970-D109-2983-1B0AF371F029}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -257,52 +257,52 @@
  <HintPath>E:/Program Files/Unity 2017/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/SMK2/Documents/GitHub/PhotonExamples/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>E:/smkgames2019/Projects/Car/PhotonExamples-master/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/SMK2/Documents/GitHub/PhotonExamples/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>E:/smkgames2019/Projects/Car/PhotonExamples-master/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/SMK2/Documents/GitHub/PhotonExamples/Assets/Photon/PhotonUnityNetworking/Code/Editor/Newtonsoft.Json.dll</HintPath>
+ <HintPath>E:/smkgames2019/Projects/Car/PhotonExamples-master/Assets/Photon/PhotonUnityNetworking/Code/Editor/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>C:/Users/SMK2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>C:/Users/Smkgames/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/SMK2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Users/Smkgames/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Analytics">
- <HintPath>C:/Users/SMK2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ <HintPath>C:/Users/Smkgames/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Users/SMK2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/Smkgames/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/SMK2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/Smkgames/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
- <HintPath>C:/Users/SMK2/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Smkgames/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{52FB8918-6ACB-1AFF-ACA2-F5725CE88D50}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{57C6D7C0-7AE6-42AF-3939-962B5D59E306}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{6D6BEF49-C1D7-ACE9-7228-E8E32FA5D572}</Project>      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>    </ProjectReference>
+      <Project>{FB6F965D-9CF9-1EE9-CCEF-9060C4F8DCF4}</Project>      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{6918E635-6347-E838-023A-2AC1D6DC0B72}</Project>      <Name>PhotonUnityNetworking.Utilities</Name>    </ProjectReference>
+      <Project>{17CB44DE-4D65-F1B1-BFB7-3EC840463664}</Project>      <Name>PhotonUnityNetworking.Utilities</Name>    </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{615D8FA4-364C-33B1-EAA8-88611EC7CDF4}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
+      <Project>{8B1C8EDA-1CD1-F0F7-2A73-B0E005B541F0}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{B02E5CFD-85BE-06AB-ABB6-4CA1031648E8}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
+      <Project>{EC458ED6-0555-E84E-2C71-E62D034FD65E}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{5688EDF5-DF33-F52A-E4B8-2E3001BC4873}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
+      <Project>{878D70E8-94FA-4785-A6AC-3599EA877010}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{A844EDAD-AC6B-44CE-D822-B3E586E08F5F}</Project>      <Name>PhotonChat</Name>    </ProjectReference>
+      <Project>{4CDBB4D7-682F-359B-FC11-42A4B9864B66}</Project>      <Name>PhotonChat</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{1143B867-9B26-C046-A1CB-FED253A6BBC4}</Project>      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>    </ProjectReference>
+      <Project>{E0E94D96-2D2C-CEFB-B2B0-F51FC518247E}</Project>      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{52471C72-1F1D-8404-932E-2BF648B23915}</Project>      <Name>PhotonUnityNetworking.Editor</Name>    </ProjectReference>
+      <Project>{E2AC6FD3-5FCD-17BD-B298-ADF0224656E8}</Project>      <Name>PhotonUnityNetworking.Editor</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
